@@ -38,6 +38,13 @@
   background-color: rgb(255, 245, 235);
 }
 
+.navbar img {
+  height: 80px;
+}
+.navbar ul {
+  justify-content: end;
+}
+
 .navbar i {
   color: #544541;
 }
@@ -46,7 +53,7 @@
   display: flex;
   justify-content: center;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 27px;
   font-family: "Bebas Neue";
   color: rgb(71, 45, 12);
 }
@@ -193,39 +200,36 @@ aside {
   background-repeat: no-repeat;
 }
 
-.em {
-  width: 500px;
-  padding: 35px;
-  font-size: 28px;
-}
-
 .pm {
+  width: 60%;
   height: 100%;
-
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  padding: 20px;
 }
 
-.us {
-  width: 100%;
-  height: 100vh;
+.em {
+  min-width: 250px;
+  background-color: hsla(0, 0%, 100%, 0.701);
+  border: 2px solid rgba(255, 217, 0, 0.329);
+  border-radius: 7px;
+  font-size: clamp(0, 0625rem, 0.016rem + 175vw, 1, 5625rem);
   padding: 10px;
+}
+
+/* nosotros */
+.us {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   color: #544541;
+  flex-wrap: wrap;
 }
 
 .nosotros {
+  flex-grow: 1;
   width: 60%;
-  height: 100%;
-  padding: 75px;
-  display: flex;
   justify-content: center;
-  align-items: start;
   font-size: 25px;
+  padding: 30px;
 }
 .nosotros h2 {
   font-size: 55px;
@@ -237,22 +241,20 @@ aside {
 }
 
 .cartera-azul {
-  width: 40%;
-  height: 100%;
-  padding-right: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-grow: 1;
+  width: 35vw;
+  min-width: 300px;
+  padding: 30px;
 }
 
 .cartera-azul img {
   width: 100%;
-  border-radius: 6%;
+  border-radius: 15px;
+  box-shadow: 0px 3px 5px rgb(15, 15, 15, 0.5);
+  margin-bottom: 30px;
 }
 
 .cartera-azul a {
-  display: inline-block;
-  margin: 10px 120px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -263,23 +265,32 @@ aside {
   text-decoration: none;
   text-transform: uppercase;
   border: 1px solid #544541;
-  padding: 5px;
+  padding: 10px 30px;
 }
 
 /* fin page nosotros */
 
 /* Crear cuenta page inicia */
+.ls {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  padding: 10px;
+}
 
 .login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  min-width: 250px;
+  margin-top: 100px;
+}
+
+.iniciars {
+  margin: 100px 0 20px;
 }
 
 .log {
-  width: 420px;
-
+  width: 345px;
   border: 2px solid rgb(42, 40, 40);
   backdrop-filter: blur(20px);
   box-shadow: 0 0 7px rgb(15, 56, 56);
