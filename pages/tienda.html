@@ -91,12 +91,51 @@
 
         <!-- navbs -->
       </header>
-      <div class="mod"><h2>Modelos destacados</h2></div>
-      <section class="desk">
-        <div class="item item1"></div>
-        <div class="item item2"></div>
-        <div class="item item3"></div>
-        <a href="./pages/tienda.html">Ver todos los modelos</a>
+
+      <section class="coursel">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../assets/carousel.jpg" alt="cartera" />
+              <div class="carousel-caption">
+                <h3>Lafayette</h3>
+                <p>Estilo y funcionalidad en cada detalle</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/carousel1.jpg" alt="cartera" />
+              <div class="carousel-caption">
+                <h3>Lafayette</h3>
+                <p>Descubre la elegancia en cada costura</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/carousel2.jpg" alt="cartera" />
+              <div class="carousel-caption">
+                <h3>Lafayette</h3>
+                <p>
+                  Encuentra tu complemento perfecto entre nuestros productos
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
       </section>
 
       <!-- tienda -->
