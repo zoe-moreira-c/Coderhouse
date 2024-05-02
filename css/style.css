@@ -15,12 +15,18 @@
 }
 
 .principal {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
   text-align: center;
   color: aliceblue;
   background-image: url(../assets/primg.png);
   background-position: center;
   background-repeat: no-repeat;
-  padding: 300px;
+  width: 100vw;
+  height: 100vh;
+  font-size: clamp(0, 0625rem, 0.016rem + 175vw, 1, 5625rem);
 }
 
 .principal h1 {
@@ -36,6 +42,11 @@
 
 .navbar {
   background-color: rgb(255, 245, 235);
+}
+
+.collapse {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navbar img {
@@ -217,7 +228,7 @@ aside {
   padding: 10px;
 }
 
-/* nosotros */
+/* nosotros fin */
 .us {
   display: flex;
   color: #544541;
@@ -379,3 +390,96 @@ aside {
 }
 
 /* Crear cuenta page fin */
+
+/* tienda page comienza */
+.carousel {
+  padding: 30px;
+  margin-top: 60px;
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-inner {
+  display: flex;
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-indicators li {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 2px solid rgb(191, 134, 10);
+}
+
+.carousel-control-prev-icon:hover {
+  transform: scale(2);
+  transition: all 0.5s;
+}
+
+.carousel-caption {
+  color: #544541;
+  background-color: hsla(0, 0%, 100%, 0.701);
+  border-radius: 7px;
+}
+/* cajas */
+.cajas {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.caja {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border: 2px solid rgb(71, 45, 12);
+  border-radius: 3%;
+  box-shadow: 0 0 10px rgb(42, 40, 40);
+  background-color: aliceblue;
+}
+
+.cajas div {
+  margin: 20px;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.cajas div:hover {
+  transform: scale(1.5);
+  transition: 6s;
+}
+
+/* tienda page fin */
+
+/* pedido empieza */
+
+.carrito {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrito h3 {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 40px;
+  box-shadow: 0 0 5px rgb(42, 40, 40);
+  background-color: rgba(240, 248, 255, 0.678);
+}
+
+.carrito a {
+  color: #544541;
+}
+
+/* pedido fin */
