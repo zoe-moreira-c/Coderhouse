@@ -1,0 +1,82 @@
+.main {
+  background-color: rgb(248, 235, 209);
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+  background-image: url(../assets/primg-ezgif.com-optipng.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  //   font-size: clamp(0, 0625rem, 0.016rem + 175vw, 1, 5625rem);
+}
+
+.principal h1 {
+  font-size: 50px;
+}
+//   font-family: "Playfair Display";
+//
+.principal h2 {
+  font-size: 30px;
+  //   font-family: "Playfair Display";
+}
+
+/* inicia section 1 */
+
+.mod h2 {
+  font-size: 35px;
+  text-align: center;
+  padding: 38px;
+  padding-top: 5%;
+  color: #544541;
+}
+
+.desk {
+  padding: 20px;
+  padding-bottom: 8%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 500px;
+  grid-gap: 20px;
+}
+.item {
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  border: 2px saddlebrown solid;
+}
+
+.item1 {
+  background-image: url(../assets/pexels-ivan-oboleninov-2916814-ezgif.com-optijpeg.jpg);
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.item2 {
+  background-image: url(../assets/pexels-cottonbro-studio-10669647-ezgif.com-optijpeg.jpg);
+}
+.item3 {
+  background-image: url(../assets/pexels-ranjeet-chauhan-17551715-ezgif.com-optijpeg.jpg);
+}
+
+.desk a {
+  color: #544541;
+  text-decoration: none;
+  font-size: 25px;
+  //   font-family: "Playfair Display";
+  grid-area: 2/2;
+  text-align: center;
+}
+
+.desk a:hover {
+  color: rgba(136, 100, 0, 0.416);
+}
+
+/* fin de section */

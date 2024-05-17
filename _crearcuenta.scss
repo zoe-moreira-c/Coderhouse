@@ -1,0 +1,109 @@
+/* Crear cuenta page inicia */
+.ls {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.login {
+  min-width: 250px;
+  margin-top: 100px;
+}
+
+.iniciars {
+  margin: 100px 0 20px;
+}
+
+.log {
+  width: 345px;
+  border: 2px solid rgb(42, 40, 40);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 7px rgb(15, 56, 56);
+  color: #544541;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.log h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.log .box {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.box input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 1.5px solid rgb(71, 45, 12);
+  font-size: 16px;
+  color: rgba(72, 56, 3, 0.799);
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+}
+
+.box input::placeholder {
+  color: #544541;
+}
+
+.log .cts {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.cts label input {
+  accent-color: rgb(3, 6, 8);
+  margin-right: 3px;
+}
+
+.cts a {
+  color: #544541;
+  text-decoration: none;
+}
+
+.cts a:hover {
+  text-decoration: underline;
+}
+
+.log .bt {
+  width: 100%;
+  height: 45px;
+  background-color: aliceblue;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(42, 40, 40);
+  cursor: pointer;
+  font-size: 16px;
+  color: #544541;
+  font-weight: 600;
+}
+
+.log .rgs {
+  font-size: 14.5px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.rgs p a {
+  color: rgb(75, 50, 6);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.rgs p a:hover {
+  text-decoration: underline;
+}
+
+/* Crear cuenta page fin */

@@ -1,15 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Butterfly+Kids&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Raleway";
-}
-
 .main {
   background-color: rgb(248, 235, 209);
 }
@@ -26,53 +14,17 @@
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
-  font-size: clamp(0, 0625rem, 0.016rem + 175vw, 1, 5625rem);
 }
 
 .principal h1 {
   font-size: 50px;
-  font-family: "Playfair Display";
 }
+
 .principal h2 {
   font-size: 30px;
-  font-family: "Playfair Display";
 }
-
-/* navbs */
-
-.navbar {
-  background-color: rgb(255, 245, 235);
-}
-
-.collapse {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.navbar img {
-  height: 80px;
-}
-.navbar ul {
-  justify-content: end;
-}
-
-.navbar i {
-  color: #544541;
-}
-
-.navbar a {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  font-size: 27px;
-  font-family: "Bebas Neue";
-  color: rgb(71, 45, 12);
-}
-
-/* navbs */
 
 /* inicia section 1 */
-
 .mod h2 {
   font-size: 35px;
   text-align: center;
@@ -89,6 +41,7 @@
   grid-template-rows: 500px;
   grid-gap: 20px;
 }
+
 .item {
   background-position: center;
   background-size: cover;
@@ -103,9 +56,11 @@
   grid-column: 1/2;
   grid-row: 1/2;
 }
+
 .item2 {
   background-image: url(../assets/pexels-cottonbro-studio-10669647-ezgif.com-optijpeg.jpg);
 }
+
 .item3 {
   background-image: url(../assets/pexels-ranjeet-chauhan-17551715-ezgif.com-optijpeg.jpg);
 }
@@ -114,7 +69,6 @@
   color: #544541;
   text-decoration: none;
   font-size: 25px;
-  font-family: "Playfair Display";
   grid-area: 2/2;
   text-align: center;
 }
@@ -124,30 +78,38 @@
 }
 
 /* fin de section */
-
-/* inicia section 2 */
-
-.acc img {
-  align-items: center;
-  width: 52%;
-  height: 45%;
+/* navbs */
+.navbar {
+  background-color: rgb(255, 245, 235);
 }
 
-.acc {
+.collapse {
   display: flex;
-  padding: 50px 150px 150px 20px;
+  justify-content: flex-end;
 }
 
-.app {
-  text-align: center;
-  font-size: 21px;
-  padding: 5%;
+.navbar img {
+  height: 80px;
 }
 
-/* fin de section 2 */
+.navbar ul {
+  justify-content: end;
+}
 
+.navbar i {
+  color: #544541;
+}
+
+.navbar a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 27px;
+  color: rgb(71, 45, 12);
+}
+
+/* navbs */
 /* footer inicia */
-
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -200,87 +162,6 @@ aside {
 }
 
 /* footer termina */
-
-/* inicio page nosotros */
-
-.imp {
-  height: 100vh;
-  background-image: url(../assets/fondo-ezgif.com-optipng.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.pm {
-  width: 60%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
-.em {
-  min-width: 250px;
-  background-color: hsla(0, 0%, 100%, 0.701);
-  border: 2px solid rgba(255, 217, 0, 0.329);
-  border-radius: 7px;
-  font-size: clamp(0, 0625rem, 0.016rem + 175vw, 1, 5625rem);
-  padding: 10px;
-}
-
-/* nosotros fin */
-.us {
-  display: flex;
-  color: #544541;
-  flex-wrap: wrap;
-}
-
-.nosotros {
-  flex-grow: 1;
-  width: 60%;
-  justify-content: center;
-  font-size: 25px;
-  padding: 30px;
-}
-.nosotros h2 {
-  font-size: 55px;
-  margin: 15px 0;
-}
-.menos {
-  margin: 5px 0;
-  font-size: 17px;
-}
-
-.cartera-azul {
-  flex-grow: 1;
-  width: 35vw;
-  min-width: 300px;
-  padding: 30px;
-}
-
-.cartera-azul img {
-  width: 100%;
-  border-radius: 15px;
-  box-shadow: 0px 3px 5px rgb(15, 15, 15, 0.5);
-  margin-bottom: 30px;
-}
-
-.cartera-azul a {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-.cartera-azul a {
-  color: #544541;
-  text-decoration: none;
-  text-transform: uppercase;
-  border: 1px solid #544541;
-  padding: 10px 30px;
-}
-
-/* fin page nosotros */
-
 /* Crear cuenta page inicia */
 .ls {
   min-height: 100vh;
@@ -390,14 +271,202 @@ aside {
 }
 
 /* Crear cuenta page fin */
+/* inicio page nosotros */
+.imp {
+  height: 100vh;
+  background-image: url(../assets/fondo-ezgif.com-optipng.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.pm {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.em {
+  min-width: 250px;
+  background-color: hsla(0, 0%, 100%, 0.701);
+  border: 2px solid rgba(255, 217, 0, 0.329);
+  border-radius: 7px;
+  padding: 10px;
+}
+
+/* nosotros fin */
+.us {
+  display: flex;
+  color: #544541;
+  flex-wrap: wrap;
+}
+
+.nosotros {
+  flex-grow: 1;
+  width: 60%;
+  justify-content: center;
+  font-size: 25px;
+  padding: 30px;
+}
+
+.nosotros h2 {
+  font-size: 55px;
+  margin: 15px 0;
+}
+
+.menos {
+  margin: 5px 0;
+  font-size: 17px;
+}
+
+.cartera-azul {
+  flex-grow: 1;
+  width: 35vw;
+  min-width: 300px;
+  padding: 30px;
+}
+
+.cartera-azul img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
+  margin-bottom: 30px;
+}
+
+.cartera-azul a {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cartera-azul a {
+  color: #544541;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #544541;
+  padding: 10px 30px;
+}
+
+.cards {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+.cards .maincontainer {
+  width: 250px;
+  height: 320px;
+}
+.cards .maincontainer .thecard {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+.thecard:hover {
+  transform: rotateY(180deg);
+}
+
+.thefront {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  color: #fff;
+}
+
+.theback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+  color: #333;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+.thefront img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.thefront h2 {
+  line-height: 45px;
+  background-color: rgba(9, 9, 9, 0.082);
+  text-align: center;
+  color: #fff;
+}
+
+.theback h2 {
+  padding: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.theback p {
+  padding: 30px;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.cartas1 {
+  background-color: #f1be86;
+}
+
+.cartas2 {
+  background-color: #eeac66;
+}
+
+.cartas3 {
+  background-color: #ea9b46;
+}
+
+/* fin page nosotros */
+/* pedido empieza */
+.carrito {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrito h3 {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 40px;
+  box-shadow: 0 0 5px rgb(42, 40, 40);
+  background-color: rgba(240, 248, 255, 0.678);
+}
+
+.carrito a {
+  color: #544541;
+}
+
+/* pedido fin */
 /* tienda page comienza */
 .carousel {
   padding: 30px;
   margin-top: 60px;
   width: 100vw;
   height: 95vh;
-  display: flex;
   justify-content: center;
 }
 
@@ -428,6 +497,7 @@ aside {
   background-color: hsla(0, 0%, 100%, 0.701);
   border-radius: 7px;
 }
+
 /* cajas */
 .cajas {
   display: flex;
@@ -449,7 +519,7 @@ aside {
 .cajas div {
   margin: 20px;
   cursor: pointer;
-  transition: 2s;
+  transition: all 0.9s;
 }
 
 .cajas div:hover {
@@ -459,27 +529,4 @@ aside {
 
 /* tienda page fin */
 
-/* pedido empieza */
-
-.carrito {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.carrito h3 {
-  padding: 10px;
-  font-size: 20px;
-  border-radius: 40px;
-  box-shadow: 0 0 5px rgb(42, 40, 40);
-  background-color: rgba(240, 248, 255, 0.678);
-}
-
-.carrito a {
-  color: #544541;
-}
-
-/* pedido fin */
+/*# sourceMappingURL=style.css.map */
