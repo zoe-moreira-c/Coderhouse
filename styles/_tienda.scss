@@ -1,0 +1,89 @@
+/* tienda page comienza */
+
+//navbar
+.form-check {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin: 10px;
+}
+
+.dropdown-menu {
+  background-color: #544541d9;
+}
+
+.navbar .form-control {
+  background-color: #54454159;
+}
+
+.btn {
+  background-color: #544541;
+  color: aliceblue;
+  margin: 15px;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+
+//navbar fin
+
+/* cajas */
+.cajas {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.caja {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border: 2px solid rgb(71, 45, 12);
+  border-radius: 3%;
+  box-shadow: 0 0 10px rgb(42, 40, 40);
+  background-color: aliceblue;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.cajas div {
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.cajas div:hover {
+  transform: scale(1.2);
+  transition: 3s;
+}
+
+.caja1 {
+  background-image: url(../assets/tienda1.jpg);
+}
+
+.caja2 {
+  background-image: url(../assets/tienda2.jpg);
+}
+
+.caja3 {
+  background-image: url(../assets/tienda3.jpg);
+}
+
+.caja4 {
+  background-image: url(../assets/tienda4.jpg);
+}
+
+.caja5 {
+  background-image: url(../assets/tienda5.jpg);
+}
+
+.caja6 {
+  background-image: url(../assets/tienda6.jpg);
+}
+
+/* tienda page fin */
